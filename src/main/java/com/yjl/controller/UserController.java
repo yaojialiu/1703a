@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserController {
 	@RequestMapping("list")
 	public String list() {
-		return "helloWord";
+		return "helloWord 你好";
 	}
 }
